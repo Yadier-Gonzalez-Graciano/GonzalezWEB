@@ -1,0 +1,21 @@
+/////mi patron de color////
+$colorprimario: #5495eb ;
+
+$primary:$colorprimario;
+
+///formulario//
+$form-floating-padding-x:50px;
+$form-floating-padding-y:50px;
+
+
+.contenedorforms{
+    display: flex;
+    position: relative;
+
+    
+}
+.forms{
+    height: auto;
+    width: max-content
+}
+@import "../tablas2/libs/bootstrap/scss/bootstrap";
